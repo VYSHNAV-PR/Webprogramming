@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>String and Math</title>
+</head>
+<center>
+<body bgcolor="lightyellow">
+<h1 style="color:red;"><u>STRING AND MATH FUNCTIONS</u></h1>
+<script>
+document.write("<u>STRING FUNCTIONS</u>");
+var x="Hello Javascript";
+var y="programs";
+document.write("<br><br>");
+document.write("<li>Given string x:Hello Javascript</li>");
+document.write("<br>");
+document.write("<li>Given string y:programs</li>");
+document.write("<br><br>");
+document.write("Length:" + x.length);
+document.write("<br>");
+document.write("String using slice:" + x.slice(1,6));
+document.write("<br>");
+document.write("replace:" +x.replace("Javascript","Python"));
+document.write("<br>");
+document.write("substring using subtr:" +x.substr(9,5));
+document.write("<br>");
+document.write("Concatenation:" +x.concat(" ",y));
+document.write("<br>");
+document.write("Upper case:" +x.toUpperCase());
+document.write("<br>");
+document.write("Lower case:" +x.toLowerCase());
+document.write("<br>");
+document.write("Index of script:" +x.indexOf("script"));
+document.write("<br>");
+document.write("Character at 10:" +x.charAt(10));
+document.write("<br>");
+document.write("last index of javascript:" +x.lastIndexOf("javascript"));
+document.write("<br><br>");
+
+document.write("<hr>");
+document.write("<u>MATH FUNCTIONS</u>");
+document.write("<br><br>");
+document.write("<li>Number is:100.245</li>");
+document.write("<br>");
+var number=100.245;
+document.write("<br>");
+document.write("Power to 2:" +Math.pow(number,2));
+document.write("<br>");
+document.write("Square root:" +Math.sqrt(number));
+document.write("<br>");
+document.write("Floor value:" +Math.floor(number));
+document.write("<br>");
+document.write("Ceil value:" +Math.ceil(number));
+document.write("<br>");
+document.write("Round value:" +Math.round(number));
+document.write("<br>");
+document.write("Absolute value:" +Math.abs(number));
+document.write("<br>");
+document.write("PI value:" +Math.PI);
+document.write("<br>");
+document.write("maximum(5,6,7):" +Math.max(5,6,7));
+document.write("<br>");
+document.write("minimum(5,6,7):" +Math.min(5,6,7));
+</script>
+</body>
+</center>
+</html>

@@ -1,0 +1,45 @@
+<html>
+<head>
+<script>
+function exam()
+{
+var m=0;
+if(document.examForm.one.value=="b tag")
+m=m+1;
+if(document.examForm.two.value=="6")
+m=m+1;
+if(document.examForm.three.value==".html")
+m=m+1;
+alert("Thankyou  for taking the online exam \n Your score is:"+m+" out of 3");
+}
+</script>
+</head>
+<body bgcolor="lightyellow">
+<form name="examForm" onsubmit="return exam()" method="get">
+<center><h1><u>EXAM FORM</u></h1></center>
+Enter your name:<input type="text" name="name"/><br><br>
+Enter REG NO:<input type="text" name="REG NO"/><br><br>
+<p> 1) Which element is used for making any text bold?<br>
+<input type="radio" name="one" value="p tag">p tag<br>
+<input type="radio" name="one" value="i tag">i tag<br>
+<input type="radio" name="one" value="b tag">b tag<br>
+<input type="radio" name="one" value="h tag">h tag<br>
+</p>
+<p>2) How many heading tags are there in HTML? <br>
+<input type="radio" name="two" value="2">2<br>
+<input type="radio" name="two" value="3">3<br>
+<input type="radio" name="two" value="5">5<br>
+<input type="radio" name="two" value="6">6<br>
+</p>
+<p>
+3) What is the extension of html?<br>
+<input type="radio" name="three" value=".c"> .c<br>
+<input type="radio" name="three" value=".html">.html<br>
+<input type="radio" name="three" value=".java">.java<br>
+<input type="radio" name="three" value=".js">.js<br>
+</p>
+<p>
+<center>
+<input type="submit" value="submit">
+<input type="reset" value="reset"><html>
+
